@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jan  9 13:31:10 2021
+# Process ID: 18760
+# Current directory: F:/vivado/jizu/CPU/CPU.runs/synth_1
+# Command line: vivado.exe -log singlecycleCPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source singlecycleCPU.tcl
+# Log file: F:/vivado/jizu/CPU/CPU.runs/synth_1/singlecycleCPU.vds
+# Journal file: F:/vivado/jizu/CPU/CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source singlecycleCPU.tcl -notrace

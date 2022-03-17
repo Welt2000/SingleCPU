@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CPU.srcs/sources_1/new/ALU.v" \
+"../../../../CPU.srcs/sources_1/new/ALUCU.v" \
+"../../../../CPU.srcs/sources_1/new/CPUadd.v" \
+"../../../../CPU.srcs/sources_1/new/CU.v" \
+"../../../../CPU.srcs/sources_1/new/DM.v" \
+"../../../../CPU.srcs/sources_1/new/IM.v" \
+"../../../../CPU.srcs/sources_1/new/PC.v" \
+"../../../../CPU.srcs/sources_1/new/RF.v" \
+"../../../../CPU.srcs/sources_1/new/SigExt.v" \
+"../../../../CPU.srcs/sources_1/new/mux.v" \
+"../../../../CPU.srcs/sources_1/new/singlecycleCPU.v" \
+"../../../../CPU.srcs/sim_1/new/cputest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

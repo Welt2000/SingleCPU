@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cputest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cputest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="347001fs"></ZoomEndTime>
+      <Cursor1Time time="251500fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="71"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/cputest/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/Out1" type="array">
+      <obj_property name="ElementShortName">Out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Out1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/Out2" type="array">
+      <obj_property name="ElementShortName">Out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Out2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/PCaddr" type="array">
+      <obj_property name="ElementShortName">PCaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/PCnext" type="array">
+      <obj_property name="ElementShortName">PCnext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCnext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/OpCode" type="array">
+      <obj_property name="ElementShortName">OpCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">OpCode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/ExtSel" type="logic">
+      <obj_property name="ElementShortName">ExtSel</obj_property>
+      <obj_property name="ObjectShortName">ExtSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/RegWr" type="logic">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/MemWr" type="logic">
+      <obj_property name="ElementShortName">MemWr</obj_property>
+      <obj_property name="ObjectShortName">MemWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/MemRd" type="logic">
+      <obj_property name="ElementShortName">MemRd</obj_property>
+      <obj_property name="ObjectShortName">MemRd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/Jump" type="logic">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Mar  9 09:53:16 2021
+# Process ID: 16148
+# Current directory: F:/vivado/jizu/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15944 F:\vivado\jizu\CPU\CPU.xpr
+# Log file: F:/vivado/jizu/CPU/vivado.log
+# Journal file: F:/vivado/jizu/CPU\vivado.jou
+#-----------------------------------------------------------start_gui
+oopen_project F:/vivado/jizu/CPU/CPU.xprScanning sources...
+FFinished scanning sourcesIINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+oopen_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 863.957 ; gain = 236.449uupdate_compile_order -fileset sources_1exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  9 09:55:18 2021...
+

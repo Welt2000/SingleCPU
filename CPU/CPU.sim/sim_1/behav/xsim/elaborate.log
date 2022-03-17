@@ -1,0 +1,26 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 38e3f19b30f946ba8ba793ebc2212672 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cputest_behav xil_defaultlib.cputest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/vivado/jizu/CPU/CPU.srcs/sources_1/new/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.MUX32
+Compiling module xil_defaultlib.ALUCU
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.PCadd
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.DM
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MUX5
+Compiling module xil_defaultlib.RF
+Compiling module xil_defaultlib.singlecycleCPU
+Compiling module xil_defaultlib.cputest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cputest_behav
